@@ -1,0 +1,60 @@
+body {
+  background-color: #222831;
+  color: #222831;
+}
+
+.box {
+  width: 320px;
+  height: 600px;
+  background-color: #dddddd;
+  border-radius: 50px;
+  border: #ffffff 10px solid;
+  margin: 75px auto;
+  padding: 10px;
+}
+
+.notch {
+  background-color: #ffffff;
+  width: 160px;
+  height: 25px;
+  border-radius: 75px;
+  position: absolute;
+  top: 75px;
+  right: 640px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.center {
+  text-align: center;
+  margin-top: 150px;
+}
+.line {
+  width: 150px;
+  height: 47px;
+  border-bottom: 5px solid #a9a9a9;
+  position: absolute;
+  right: 650px;
+}
+.line1 {
+  width: 30px;
+  height: 15px;
+  border-bottom: 5px solid orange;
+  position: relative;
+  top: 32px;
+  left: 58px;
+}
+.line2 {
+  width: 120px;
+  height: 15px;
+  border-bottom: 5px solid orange;
+  position: relative;
+  top: 32px;
+  left: 58px;
+}
+
+button {
+  margin-top: 100px;
+}
